@@ -1,4 +1,4 @@
-                                                              Install Terraform on AWS EC2 instance:
+Install Terraform on AWS EC2 instance:
 Step 1: Update Your Server
   sudo apt update && sudo apt upgrade -y
 ---------------------------------------------
@@ -18,7 +18,8 @@ Step 5: Install Terraform
 ---------------------------------------------
 Step 6: Verify Installation
   terraform -version
-===============================================================================================================================================
+
+AWS CLI Install:
 Step 1 — Install AWS CLI (if not installed)
   sudo apt update
   sudo apt install awscli -y
@@ -57,5 +58,3 @@ Expected output (example):
   }
 
 If this shows correctly → Terraform authentication will work 100%.
-
-===============================================================================================================================================
