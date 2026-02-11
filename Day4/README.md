@@ -1,1 +1,2 @@
-terraform-aws-vpc-ec2-apache
+
+VPC → Subnet → IGW → Route Table → Security Group → EC2 → Elastic IP → Apache
